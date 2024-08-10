@@ -281,3 +281,106 @@ nav,ul{
     padding-left: 40px;
     padding-right: 40px;
   }
+
+  .team{
+    width: 1400px;
+    margin: 0 auto;
+    background-color: rgba(71, 71, 71, 0.2);
+   border-radius: 10px;
+  }
+  .team-des{
+    text-align: center;
+    margin-top: 60px;
+  }
+  .team-photo{
+    width: 1200px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+    margin-top: 30px;
+    margin-left: 100px;
+    margin-bottom: 30px;
+    
+  }
+  .member-title{
+    position: absolute;
+    bottom: 0px;
+    left: 10px;
+    
+  }
+  .member-title,h4{
+    margin-bottom: 0px;
+  }
+  
+  .meet-img{
+    height: 200px;
+    border: 1px solid gray;
+    
+  }
+  
+  .for-img{
+    padding: 20px;
+    height: 250px;
+    width: 350px;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+  }
+ .img-1{
+    background-image: url('./images/trainer1.png');
+  }
+ .img-2{
+    background-image: url('./images/trainer2.png');
+  }
+ .img-3{
+    background-image: url('./images/trainer3.png');
+  }
+  .img-4{
+    background-image: url('./images/trainer4.png');
+  }
+  .img-5{
+    background-image: url('./images/trainer5.png');
+  }
+  .img-6{
+    background-image: url('./images/trainer6.png');
+  }
+  
+ 
+  .footer-div{
+    width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .footer-div-inner{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    gap: 40px;
+    margin-top: 50px; 
+  }
+  
+  .footer-div .d-1{
+    width: 40%;
+    text-align: justify;
+  }
+  
+  .footer-div .d-2{
+    width: 30%;
+  }
+  
+  .d-2 p, .d-3 p{
+    color: rgba(176, 175, 175, 0.4);
+    font-size: 17px;
+    gap: 10px;
+  }
+
+.footer-head{
+  color: rgb(230, 83, 60);
+}  
+
+.last-bar{
+  text-align: center;
+  opacity: 0.8;
+}
