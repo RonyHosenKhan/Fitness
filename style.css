@@ -10,6 +10,7 @@ body{
 }
 nav ul li{
     list-style-type: none;
+    justify-content: space-around;
 }
 nav ul{
     display: flex;
@@ -17,12 +18,37 @@ nav ul{
     gap: 40px;
     
 }
- 
+
+nav,ul{
+    display: flex;
+    margin-right: 20px;
+}
+.nav-div2{
+ display: flex;
+ justify-content: space-around;
+ margin-left: 0px;
+}
+.nav-div2,li{
+    justify-content: space-evenly;
+
+   }
+.nav-list{
+  position: relative;
+  margin-right: 200px;
+  margin-top: 30px;
+  color: rgb(236, 236, 237);
+  border: 0.5px solid gray;
+  height: 50px;
+ border-radius: 30px;
+}
+
 .nav-head{
     font-family: inter;
     font-size: 38px;
     font-weight: 800;
     color: rgb(230, 83, 60);
+    margin-left:200px;
+    font-style: italic;
 }
 .menu span{
     width: 25px;
@@ -66,20 +92,6 @@ body{
 header{
     background: linear-gradient(180.00deg, rgb(27, 27, 27),rgba(119, 119, 119, 0) 100%);   
 }
-
-.nav-head{
-    margin-left:200px;
-    font-style: italic;
-}
-.nav-list{
-    margin-right: 200px;
-  
-    margin-top: 30px;
-    color: rgb(236, 236, 237);
-    border: 0.5px solid gray;
-    height: 50px;
-   border-radius: 30px;
-}
 .btn1{
     padding: 15px 25px;
     border: none;
@@ -87,6 +99,7 @@ header{
     color: white;
     font-weight: 600;
     border-radius: 40px;
+    margin-top: 10px;
 }
 .btn2{
     padding: 15px 25px;
@@ -96,22 +109,7 @@ header{
     font-weight: 600;
     border-radius: 40px;
 }
-nav,ul,li{
-  justify-content: space-around;
-}
-nav,ul{
-    display: flex;
-    margin-right: 20px;
-}
-.nav-div2{
- display: flex;
- justify-content: space-around;
- margin-left: 0px;
-}
-.nav-div2,li{
-    justify-content: space-evenly;
 
-   }
 .red-cir{
     margin-top: 10px;
     height: 30px;
@@ -362,12 +360,12 @@ nav,ul{
   }
   
   .footer-div .d-1{
-    width: 40%;
+    width: 35%;
     text-align: justify;
   }
   
   .footer-div .d-2{
-    width: 30%;
+    width: 25%;
   }
   
   .d-2 p, .d-3 p{
@@ -383,4 +381,19 @@ nav,ul{
 .last-bar{
   text-align: center;
   opacity: 0.8;
+}
+.bmi-title{
+  margin-top: 40px;
+}
+.fit-img{
+  height: 100px;
+  width: 100px;
+  margin-left: 30px;
+  border-radius: 50%;
+  box-shadow: 10px 10px 10px -5px rgb(71, 71, 71);
+}
+
+.optional-div{
+  text-align: center;
+  margin-top: 80px;
 }
