@@ -536,7 +536,7 @@ header{
   
   @media screen and (max-width:576px){
     .team{
-      width: 100%;
+      width: 90%;
       margin: 0 auto;
       background-color: rgba(71, 71, 71, 0.2);
      border-radius: 10px;
@@ -547,6 +547,7 @@ header{
       display: grid;
       grid-template-columns: repeat(1,1fr);
       gap: 10px;
+      margin-left: 10px;
       margin-top: 30px;
       margin-left: 0px;
       margin-bottom: 30px;
@@ -555,9 +556,9 @@ header{
     .for-img{
       padding: 20px;
       height: 240px;
-      width: 230px;
+      width: 200px;
       margin-left: 10px;
-      border-radius: 10px;
+      border-radius: 15px;
       background-repeat: no-repeat;
       background-position: center;
       background-size: cover;
