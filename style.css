@@ -224,8 +224,8 @@ header{
     border: none;
 }
 .btn4-element{
-    font-size: 20px;
-   font-weight: 700;
+    font-size: 30px;
+   font-weight: 800;
    
 }
 .btn3{
@@ -647,5 +647,14 @@ header{
   .hr{
     width: 300px;
     margin-left: 5px;
+  }
+  .footer-des{
+    width: 250px;
+  }
+  .d-2 p, .d-3 p{
+    color: rgba(176, 175, 175, 0.4);
+    font-size: 17px;
+    gap: 10px;
+    width: 250px;
   }
 }
